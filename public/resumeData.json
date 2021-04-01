@@ -1,0 +1,91 @@
+{
+  "main": {
+    "name":"Giovanni Molina",
+    "occupation":"Full Stack Developer",
+    "description":"Actualmente soy Docente de la Escuela de Informatica y Telecomunicaciones. Siempre he estado ligado al desarrollo multiplataforma, y me encanta enseñar lo que sé",
+    "image":"profilepic.jpg",
+    "bio":"Disfruto el desarrollo multiplataforma especialmente trabajar con Javascript, ReactJS, C# en todas sus formas y colores!, a demas siempre me encuentro aprendiendo tecnologias nuevas",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "gmolina.dev@gmail.com",
+    "address":{
+      "city":"Santiago"
+    },
+    "website": "http://www.profegiova.me",
+    "resumedownload":"http://profegiova.me",
+    "social":[
+      
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/giovannimg/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/Giovasdf",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"",
+    "education":[
+      {
+        "school":"DuocUC",
+        "degree":"Analista Programador Computacional",
+        "graduated":"Agosto 2018",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"CertiProf",
+        "degree":"Scrum Foundation Professional Certificate",
+        "graduated":"Junio 2020",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work":[
+      {
+        "company":"DuocUC",
+        "title":"Docente",
+        "years":"Agosto 2019 - Presente",
+        "description":"Docente en la Escuela de Informatica y telecomunicaciones en las carreras de Analista Programador y Ingeniería en Informática, impartiendo asignaturas desde Introduccion a la Programación hasta Arquitectura de Software, utilizando tecnologias como Python, Java, C#, HTML5, CSS3, JS, Django entre otros"
+      },
+      {
+        "company":"IP Arcos",
+        "title":"Docente",
+        "years":"Agosto 2019 - Presente",
+        "description":"Docente en la Diseño en las carrera de Diseño de Videojuegos, impartiendo asignaturas como Programación Avanzada y Diseño de Software, utilizando Unity"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"60%"
+      },
+      {
+        "name":"Unity",
+        "level":"70%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"C#",
+        "level":"90%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"CSS3",
+        "level":"50%"
+      },
+      {
+        "name":"SQL Server",
+        "level":"80%"
+      }
+    ]
+  }
+  
+}
