@@ -2,341 +2,455 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>
-        Giovanni Molina
-    </title>
-    <link rel="stylesheet" href="dist/main.css">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧙</text></svg>">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Giovanni Martínez - Desarrollador Web</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
 
 </head>
 
 <body>
-    <!-- Header Section Starts Here-->
-    <section class="header">
-        <div class="container">
-            <div class="header-content">
-                <a href="#" class="logo">
-                    <img src="dist/images/logo.png" style="height: 100px;" alt="logo">
-                </a>
-                <div class="header-content-menu">
-                    <!-- <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Works</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul> -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Header Section Ends Here-->
-    <!-- Banner Section Starts Here-->
-    <section class="banner">
-        <div class="container">
-            <div class="banner-content">
-                <div class="row">
-                    <div class="col-lg-6 order-2 order-lg-0">
-                        <div class="banner-content-left">
-                            <h3 class="font-xl">Hello, I’m Giovanni, a Software
-                                <span>Developer.</span>
-                            </h3>
-                            <p>Software Developer, Tech Enthusiast, Chilean
-                                based in Ireland.
-                                Over the past 6 years as a Developer,
-                                I’ve worked with big companies and up-and-coming
-                                startups.</p>
 
-                        </div>
-                    </div>
-                    <div class="col-lg-6 order-1 order-lg-0">
-                        <div class="banner-content-right">
-                            <img src="dist/images/banner.png" alt="banner-img">
-                            <img class="dot-shadow-img" src="dist/images/dot-shadow-img.png" alt="dot-shadow">
-                        </div>
-                    </div>
-                    <!-- </div> -->
-                </div>
-            </div>
-    </section>
-    <!-- Banner Section Ends Here-->
-    <!-- About Section Starts Here-->
-    <section class="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="row">
-                    <div class="col-lg-6 col-sm-12">
-                        <div class="about-content-left">
-                            <img class="about-img" src="dist/images/about.png" alt="about-img">
-                            <img class="about-white-shadow" src="dist/images/about-white-shadow.png" alt="shadow">
-                            <img class="about-black-dot" src="dist/images/black-dot.png" alt="dot-shape">
-                            <img class="lg-round-shape" src="dist/images/lg-round-shape.png" alt="shape">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-sm-12">
-                        <div class="about-content-right">
-                            <h3 class="font-md">Software Developer, Tech Enthusiast, Chilean based in Ireland. .</h3>
-                            <p class="para-2">I’m always exploring new technologies and skills, which helps me by
-                                providing a deeper understanding of how things work.</p>
-                            <div class="project-document">
-                                <div class="project-year">
-                                    <h2 class="font-lg">6+</h2>
-                                    <span class="para-2">Years of
-                                        Experience
-                                    </span>
-                                </div>
-                                <div class="project-completed">
-                                    <h2 class="font-lg">20+</h2>
-                                    <span class="para-2">Completed
-                                        Projects</span>
-                                </div>
-                            </div>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- About Section Ends Here-->
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Acerca de Mí</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Currículum</span></a></li>
+        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Servicios</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contacto</span></a></li>
+      </ul>
+    </nav><!-- .nav-menu -->
 
-    <!-- Service Section Starts Here-->
-    <section class="service">
-        <div class="container">
-            <div class="service-text">
-                <h4 class="font-sm">My Skills Verified in LinkedIn
-                    <div class="deep-dot"></div>
-                </h4>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="service-content-area">
-                        <div class="layer-svg">
-                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M20 3.33325L3.33334 11.6666L20 19.9999L36.6667 11.6666L20 3.33325Z"
-                                    stroke="black" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                </path>
-                                <path d="M3.33334 28.3333L20 36.6666L36.6667 28.3333" stroke="black" stroke-width="2.2"
-                                    stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M3.33334 20L20 28.3333L36.6667 20" stroke="black" stroke-width="2.2"
-                                    stroke-linecap="round" stroke-linejoin="round"></path>
-                            </svg>
-                        </div>
-                        <p class="font-xs"> HTML </p>
-                        <span class="light-dot"></span>
-                        <a href="#" class="right-arrow-icon">
+  </header><!-- Fin del Encabezado -->
 
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="service-content-area">
-                        <div class="layer-svg">
-                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M20 3.33325L3.33334 11.6666L20 19.9999L36.6667 11.6666L20 3.33325Z"
-                                    stroke="black" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                </path>
-                                <path d="M3.33334 28.3333L20 36.6666L36.6667 28.3333" stroke="black" stroke-width="2.2"
-                                    stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M3.33334 20L20 28.3333L36.6667 20" stroke="black" stroke-width="2.2"
-                                    stroke-linecap="round" stroke-linejoin="round"></path>
-                            </svg>
-                        </div>
-                        <p class="font-xs"> Front-End </p>
-                        <span class="light-dot"></span>
-                        <a href="#" class="right-arrow-icon">
-
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="service-content-area">
-                        <div class="layer-svg">
-                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M20 3.33325L3.33334 11.6666L20 19.9999L36.6667 11.6666L20 3.33325Z"
-                                    stroke="black" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                </path>
-                                <path d="M3.33334 28.3333L20 36.6666L36.6667 28.3333" stroke="black" stroke-width="2.2"
-                                    stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M3.33334 20L20 28.3333L36.6667 20" stroke="black" stroke-width="2.2"
-                                    stroke-linecap="round" stroke-linejoin="round"></path>
-                            </svg>
-                        </div>
-                        <p class="font-xs"> OOP </p>
-                        <span class="light-dot"></span>
-                        <a href="#" class="right-arrow-icon">
-
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12">
-                    <div class="service-content-area">
-                        <div class="layer-svg">
-                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M20 3.33325L3.33334 11.6666L20 19.9999L36.6667 11.6666L20 3.33325Z"
-                                    stroke="black" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
-                                </path>
-                                <path d="M3.33334 28.3333L20 36.6666L36.6667 28.3333" stroke="black" stroke-width="2.2"
-                                    stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M3.33334 20L20 28.3333L36.6667 20" stroke="black" stroke-width="2.2"
-                                    stroke-linecap="round" stroke-linejoin="round"></path>
-                            </svg>
-                        </div>
-                        <p class="font-xs"> GIT </p>
-                        <p class="font-xs"> </p>
-                        <span class="light-dot"></span>
-                        <a href="#" class="right-arrow-icon">
-
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Service Section Ends Here-->
-
-
-    <!-- Company Section Starts Here-->
-    <section class="company">
-        <div class="container">
-            <div class="company-content">
-                <div class="row align-items-center ">
-                    <div class="col-xl-3 px-0">
-                        <div class="company-content-text">
-
-                            <h3 class="font-xs">
-
-                                I Have <span>Participated</span>
-                                in Projects Related to These Companies
-                            </h3>
-                        </div>
-                    </div>
-                    <div class="col-xl-9 px-0">
-                        <div class="company-content-social-activity">
-                            <div class="social-img-icon">
-                                <a href="https://na.arauco.com/" class="youtube">
-                                    <img src="dist/images/arauco.png" alt="youtube">
-                                </a>
-                            </div>
-                            <div class="social-img-icon">
-                                <a href="https://www.duoc.cl/" class="google youtube">
-                                    <img src="dist/images/duoc.svg.png" alt="google">
-                                </a>
-                            </div>
-                            <div class="social-img-icon">
-                                <a href="https://www.entel.cl/" class="adobe youtube">
-                                    <img src="dist/images/entel.png" alt="adobe">
-                                </a>
-                            </div>
-                            <div class="social-img-icon">
-                                <a href="https://www.grupoexpro.com/" class="sketch youtube">
-                                    <img src="dist/images/grupo.png" alt="sketch">
-                                </a>
-                            </div>
-                            <div class="social-img-icon">
-                                <a href="https://www.chileatiende.gob.cl/" class="sketch youtube">
-                                    <img src="dist/images/chile.png" alt="sketch">
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Company Section Ends Here-->
-
-    <!-- Contacts  Section Starts Here-->
-    <section class="contact">
-        <div class="container">
-            <div class="row">
-           
-                <div class="col-lg">
-                    <div class="contact-area-location">
-                        <h3 class="font-xs">Get In Touch</h3>
-                       
-                        <div class="contact-location-icon">
-                            <a href="mailto:gmolina.dev@gmail.com" class="social social-lg-round">
-                                <svg width="32" height="33" viewBox="0 0 32 33" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M5.33329 5.66699H26.6666C28.1333 5.66699 29.3333 6.86699 29.3333 8.33366V24.3337C29.3333 25.8003 28.1333 27.0003 26.6666 27.0003H5.33329C3.86663 27.0003 2.66663 25.8003 2.66663 24.3337V8.33366C2.66663 6.86699 3.86663 5.66699 5.33329 5.66699Z"
-                                        stroke="#684FFF" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                    <path d="M29.3333 8.3335L16 17.6668L2.66663 8.3335" stroke="#684FFF"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
-                            </a>
-                            <div class="location-text">
-                                <span class="para-2">gmolina.dev@gmail.com
-                                </span>
-                            </div>
-                        </div>
-
-                           
-                        <div class="contact-location-icon">
-                            <a href="https://www.linkedin.com/in/giovannimg/" class="social social-lg-round">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                                  </svg>
-                            </a>
-                            <div class="location-text">
-                                <span class="para-2">@giovannimg
-                                </span>
-                            </div>
-                        </div>
-
-                        <div class="contact-location-icon">
-                            <a href="https://github.com/Giovasdf/" class="social social-lg-round">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                                  </svg>
-                            </a>
-                            <div class="location-text">
-                                <span class="para-2">@Giovasdf
-                                </span>
-                            </div>
-                        </div>
-
-
-                   
-
-                       
-                        <div class="black-dot">
-                            <img src="dist/images/black-dot.png" alt="dot-shape">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="round-shape">
-                <img src="dist/images/border-round-shape.png" alt="shape">
-            </div>
-            <div class="lg-round-shape">
-                <img src="dist/images/lg-round-shape.png" alt="">
-            </div>
-        </div>
-    </section>
-    <!-- Contacts  Section Ends Here-->
-
-    <!-- Footer  Section Starts Here-->
-    <div class="footer">
-        <div class="container">
-            <div class="footer-text">
-                <h4>© 2022 — Giovanni Molina.
-                </h4>
-            </div>
-        </div>
+<!-- ======= Sección del Héroe ======= -->
+<section id="hero" class="d-flex flex-column justify-content-center">
+  <div class="container" data-aos="zoom-in" data-aos-delay="100">
+    <h1>Giovanni Molina</h1>
+    <p>Soy <span class="typed" data-typed-items="Desarrollador Full Stack, Docente de TI, Diseñador de Software, Apasionado por la Tecnología"></span></p>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/giovannimg/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      <a href="https://github.com/Giovasdf" class="github"><i class="bx bxl-github"></i></a>
     </div>
-    <!-- Footer  Section Ends Here-->
+  </div>
+</section><!-- Fin del Héroe -->
 
-    <script src="dist/main.js"></script>
+  <main id="main">
+
+    <!-- ======= Sección Acerca de Mí ======= -->
+<!-- ======= Sección Acerca de Mí ======= -->
+<section id="about" class="about">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>Acerca de Mí</h2>
+      <p>Desarrollador Full Stack apasionado con experiencia en Angular, .NET Core y bases de datos como PostgreSQL y SQL Server. También soy docente de Tecnologías de la Información, con un historial probado de comunicación efectiva y enseñanza de conceptos técnicos. Me considero un diseñador de software comprometido y apasionado por la tecnología.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-8 pt-4 pt-lg-0 content">
+        <h3>Desarrollador Full Stack &amp; Docente de TI.</h3>
+        <p class="fst-italic">
+          Soy un apasionado desarrollador Full Stack con una sólida formación en programación. Mi experiencia en el desarrollo de aplicaciones web y software me ha llevado a trabajar con tecnologías como Angular, .NET Core y bases de datos como PostgreSQL y SQL Server. Además, tengo un compromiso firme con la enseñanza de Tecnologías de la Información, ayudando a mis estudiantes a adquirir habilidades esenciales en este campo en constante evolución.
+        </p>
+        
+        <div class="row">
+          <div class="col-lg-6">
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <strong>Fecha de Nacimiento:</strong> <span>05/11/1993</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Sitio Web:</strong> <a href="https://giovasdf.github.io/" target="_blank"><span>giovasdf.github.io</span></a></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Teléfono:</strong> <span>+56927216726</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Ciudad:</strong> <span>Santiago, Chile</span></li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <strong>Edad:</strong> <span>30</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Título:</strong> <span>Analista Programador Computacional</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Correo Electrónico:</strong> <span>gmolina.dev@gmail.com</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Disponibilidad:</strong> <span>Inmediata</span></li>
+            </ul>
+          </div>
+        </div>
+        <p>
+          Con experiencia en el desarrollo de software y la enseñanza de tecnología de la información, disfruto creando soluciones precisas y efectivas, así como fomentando un entorno de aprendizaje sólido para mis estudiantes. Estoy comprometido con el éxito en la industria tecnológica en constante evolución.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section><!-- Fin de la Sección Acerca de Mí -->
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container" data-aos="fade-up">
+    
+        <div class="section-title">
+          <h2>Datos de Interés</h2>
+          <p>Algunos datos relevantes sobre mi experiencia y logros profesionales.</p>
+        </div>
+    
+        <div class="row">
+    
+          <div class="col-lg-3 col-md-6">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Experiencia en Años</p>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Proyectos Completados</p>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="8000" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Horas de Desarrollo</p>
+            </div>
+          </div>
+    
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Certificaciones Obtenidas</p>
+            </div>
+          </div>
+    
+        </div>
+    
+      </div>
+    </section><!-- Fin de la Sección Datos de Interés -->
+    
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+    
+        <div class="section-title">
+          <h2>Habilidades</h2>
+          <p>Un vistazo a mis habilidades técnicas.</p>
+        </div>
+    
+        <div class="row skills-content">
+    
+          <div class="col-lg-6">
+    
+            <div class="progress">
+              <span class="skill">Front End Development <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+    
+            <div class="progress">
+              <span class="skill">Back End Development <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+    
+            <div class="progress">
+              <span class="skill">Docencia <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+    
+          </div>
+    
+          <div class="col-lg-6">
+    
+            <div class="progress">
+              <span class="skill">Angular <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+    
+            <div class="progress">
+              <span class="skill">C# <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+    
+            <div class="progress">
+              <span class="skill">Python <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+    
+          </div>
+    
+        </div>
+    
+      </div>
+    </section><!-- Fin de la Sección Habilidades -->
+    
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+    
+        <div class="section-title">
+          <h2>Resumen</h2>
+          <p>Una visión general de mi educación y experiencia profesional.</p>
+        </div>
+    
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Resumen</h3>
+            <div class="resume-item pb-0">
+              <h4>Giovanni Molina</h4>
+              <p><em>Desarrollador Full Stack apasionado con 3+ años de experiencia en el diseño y desarrollo de aplicaciones web y software. Comprometido con la enseñanza de Tecnologías de la Información para ayudar a otros a adquirir habilidades esenciales en el campo de la tecnología.</em></p>
+              <ul>
+                <li>Santiago, Chile</li>
+                <li>+56927216726</li>
+                <li>gmolina.dev@gmail.com</li>
+              </ul>
+            </div>
+    
+            <h3 class="resume-title">Educación</h3>
+            <div class="resume-item">
+              <h4>Ingeniería en Informática</h4>
+              <h5>2022 - 2024</h5>
+              <p><em>IPLACEX, Santiago, Chile</em></p>
+              <p>Estudiante de Ingeniería en Informática con énfasis en desarrollo de software y tecnologías de vanguardia.</p>
+            </div>
+            <div class="resume-item">
+              <h4>Analista Programador Computacional</h4>
+              <h5>2013 - 2018</h5>
+              <p><em>DuocUC, Chile</em></p>
+              <p>Graduado como Analista Programador Computacional con amplios conocimientos en desarrollo de software.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Experiencia Profesional</h3>
+            <div class="resume-item">
+              <h4>Desarrollador Full Stack</h4>
+              <h5>Junio 2019 - Marzo 2023</h5>
+              <p><em>OpenDev, Santiago, Chile</em></p>
+              <ul>
+                <li>Desarrollo de aplicaciones web y software utilizando tecnologías como Angular, .NET Core y bases de datos SQL.</li>
+                <li>Integración de aplicaciones con API externas y contribución al éxito del equipo OpenDev CL.</li>
+                <li>Enseñanza de Arquitectura de Software y Desarrollo Web a estudiantes.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Docente TI</h4>
+              <h5>Junio 2019 - Junio 2022</h5>
+              <p><em>DuocUC, Santiago, Chile</em></p>
+              <ul>
+                <li>Amplia experiencia en la enseñanza de Tecnologías de la Información a estudiantes.</li>
+                <li>Comunicación efectiva de conceptos complejos y desarrollo de habilidades en estudiantes.</li>
+                <li>Compromiso con el éxito de los estudiantes y creación de un entorno de aprendizaje sólido.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </section><!-- Fin de la Sección Resumen -->
+    
+   
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+    
+        <div class="section-title">
+          <h2>Servicios</h2>
+          <p>Descubre los servicios que ofrezco para ayudarte en tu viaje tecnológico.</p>
+        </div>
+    
+        <div class="row">
+    
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-blue">
+              <div class="icon">
+                <i class="bx bxl-dribbble"></i>
+              </div>
+              <h4><a href="#">Desarrollo Web</a></h4>
+              <p>Desarrollo sitios web a medida para tu negocio o proyecto, con diseño y funcionalidad excepcionales.</p>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-red">
+              <div class="icon">
+                <i class="bx bx-slideshow"></i>
+              </div>
+              <h4><a href="#">Diseño UI/UX</a></h4>
+              <p>Creo diseños impactantes y materiales de marketing de alta calidad para tu negocio.</p>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-pink">
+              <div class="icon">
+                <i class="bx bx-tachometer"></i>
+              </div>
+              <h4><a href="#">Optimización de Rendimiento</a></h4>
+              <p>Optimizo el rendimiento de tu sitio web o aplicación para una experiencia más rápida y eficiente.</p>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-yellow">
+              <div class="icon">
+                <i class="bx bx-layer"></i>
+              </div>
+              <h4><a href="#">Desarrollo de Aplicaciones</a></h4>
+              <p>Desarrollo aplicaciones móviles y de escritorio personalizadas para satisfacer tus necesidades.</p>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-red">
+              <div class="icon">
+                <i class="bx bx-slideshow"></i>
+              </div>
+              <h4><a href="#">Diseño UI/UX</a></h4>
+              <p>Diseño interfaces de usuario atractivas y experiencias de usuario intuitivas para tus productos digitales.</p>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-teal">
+              <div class="icon">
+                <i class="bx bx-arch"></i>
+              </div>
+              <h4><a href="#">Consultoría Tecnológica</a></h4>
+              <p>Brindo asesoramiento experto en tecnología para ayudarte a tomar decisiones informadas y estratégicas.</p>
+            </div>
+          </div>
+    
+        </div>
+    
+      </div>
+    </section><!-- Fin de la Sección Servicios -->
+    
+<!-- ======= Sección de Contacto ======= -->
+<section id="contact" class="contacto">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Contacto</h2>
+    </div>
+    <div class="row mt-1">
+      <div class="col-lg-4">
+        <div class="info">
+          <div class="address">
+            <i class="bi bi-geo-alt"></i>
+            <h4>Dirección:</h4>
+            <p>José Abelardo Nuñez #535, Estación Central, Santiago, Chile</p>
+          </div>
+          <div class="email">
+            <i class="bi bi-envelope"></i>
+            <h4>Correo Electrónico:</h4>
+            <p>gmolina.dev@gmail.com</p>
+          </div>
+          <div class="phone">
+            <i class="bi bi-phone"></i>
+            <h4>Teléfono:</h4>
+            <p>+56927216726</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8 mt-5 mt-lg-0">
+        <!-- Utilizamos el formulario de Formspree -->
+        <form
+          action="https://formspree.io/f/mvoegagg"
+          method="POST"
+        >
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Tu Nombre" required>
+            </div>
+            <div class="col-md-6 form-group mt-3 mt-md-0">
+              <input type="email" class="form-control" name="_replyto" id="email" placeholder="Tu Correo Electrónico" required>
+            </div>
+          </div>
+        
+          <div class="form-group mt-3">
+            <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
+          </div>
+          </div>
+          <!-- Cambiamos el botón para enviar el formulario -->
+          <div class="text-center"><button type="submit" class=" btn btn-primary">Enviar Mensaje</button></div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section><!-- Fin de la Sección de Contacto -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Giovanni Molina</h3>
+      <p>Dirección: José Abelardo Nuñez #535 Est.Central, Santiago, Chile</p>
+      <p>Email: gmolina.dev@gmail.com</p>
+      <p>Teléfono: +56927216726</p>
+      <div class="social-links">
+        <a href="https://github.com/Giovasdf" class="github"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/giovannimg/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      
+    </div>
+  </footer><!-- End Footer -->
+  
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
