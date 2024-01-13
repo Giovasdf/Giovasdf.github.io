@@ -1200,3 +1200,17 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.language-selector {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#languageSelector {
+  border: none;
+  background-color: transparent; /* Ajusta según tu esquema de colores */
+  color: inherit; /* Para que coincida con el color de tu menú */
+  font-family: inherit; /* Para mantener la consistencia tipográfica */
+  /* Más estilos según sea necesario */
+}

@@ -1,0 +1,91 @@
+{
+    "hero": {
+      "name": "Giovanni Molina",
+      "description": "I am a <span class=\"typed\" data-typed-items=\"Full Stack Developer, IT Teacher, Software Designer, Technology Enthusiast\"></span>",
+      "linkedin": "https://www.linkedin.com/in/giovannimg/",
+      "github": "https://github.com/Giovasdf"
+    },
+    "about": {
+      "title": "About Me",
+      "description": "Passionate Full Stack Developer with experience in Angular, .NET Core, and databases like PostgreSQL and SQL Server. I am also an IT teacher with a proven track record of effective communication and teaching technical concepts. I consider myself a dedicated software designer and technology enthusiast.",
+      "birthdate": "Date of Birth",
+      "website": "Website",
+      "phone": "Phone",
+      "city": "City",
+      "age": "Age",
+      "degree": "Degree",
+      "email": "Email",
+      "availability": "Availability",
+      "experience": "With experience in software development and IT teaching, I enjoy creating precise and effective solutions, as well as fostering a strong learning environment for my students. I am committed to success in the constantly evolving technology industry."
+    },
+    "facts": {
+      "title": "Facts of Interest",
+      "experience": "Years of Experience",
+      "projects": "Completed Projects",
+      "development_hours": "Development Hours",
+      "certifications": "Certifications Obtained"
+    },
+    "skills": {
+      "title": "Skills",
+      "front_end": "Front End Development",
+      "back_end": "Back End Development",
+      "teaching": "Teaching",
+      "angular": "Angular",
+      "c_sharp": "C#",
+      "python": "Python"
+    },
+    "resume": {
+      "title": "Resume",
+      "summary": "Summary",
+      "name": "Giovanni Molina",
+      "summary_description": "Passionate Full Stack Developer with 3+ years of experience in designing and developing web applications and software. Committed to IT teaching to help others acquire essential skills in the technology field.",
+      "education": "Education",
+      "engineering": "Computer Engineering",
+      "engineering_date": "2022 - 2024",
+      "engineering_description": "Computer Engineering student with a focus on software development and cutting-edge technologies.",
+      "analyst_programmer": "Analyst Programmer",
+      "analyst_programmer_date": "2013 - 2018",
+      "analyst_programmer_description": "Graduated as an Analyst Programmer with extensive knowledge in software development.",
+      "professional_experience": "Professional Experience",
+      "full_stack_developer": "Full Stack Developer",
+      "full_stack_developer_date": "June 2019 - March 2023",
+      "full_stack_developer_description": "Web and software application development using technologies such as Angular, .NET Core, and SQL databases. Integration of applications with external APIs and contribution to the success of the OpenDev CL team. Teaching Software Architecture and Web Development to students.",
+      "it_teacher": "IT Teacher",
+      "it_teacher_date": "June 2019 - June 2022",
+      "it_teacher_description": "Extensive experience in teaching Information Technology to students. Effective communication of complex concepts and development of students' skills. Commitment to student success and the creation of a strong learning environment."
+    },
+    "services": {
+      "title": "Services",
+      "discover_services": "Discover the services I offer to assist you on your technology journey.",
+      "web_development": "Web Development",
+      "web_development_description": "Custom website development for your business or project with exceptional design and functionality.",
+      "ui_ux_design": "UI/UX Design",
+      "ui_ux_design_description": "Creating stunning designs and high-quality marketing materials for your business.",
+      "performance_optimization": "Performance Optimization",
+      "performance_optimization_description": "Optimizing your website or application's performance for a faster and more efficient user experience.",
+      "application_development": "Application Development",
+      "application_development_description": "Developing custom mobile and desktop applications to meet your needs.",
+      "technology_consulting": "Technology Consulting",
+      "technology_consulting_description": "Providing expert technology advice to help you make informed and strategic decisions."
+    },
+    "contact": {
+      "title": "Contact",
+      "address_title": "Address",
+      "address": "José Abelardo Nuñez #535, Estación Central, Santiago, Chile",
+      "email_title": "Email",
+      "email": "gmolina.dev@gmail.com",
+      "phone_title": "Phone",
+      "phone": "+56927216726",
+      "name_placeholder": "Your Name",
+      "email_placeholder": "Your Email",
+      "message_placeholder": "Message",
+      "send_button_text": "Send Message"
+    },
+    "footer": {
+      "name": "Footer Name",
+      "address": "Address: José Abelardo Nuñez #535 Est.Central, Santiago, Chile",
+      "email": "Email: gmolina.dev@gmail.com",
+      "phone": "Phone: +56927216726"
+    }
+  }
+  

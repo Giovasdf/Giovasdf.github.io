@@ -30,20 +30,27 @@
 </head>
 
 <body>
-
+  
   <!-- ======= Mobile nav toggle button ======= -->
   <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
   <i class="bi bi-list mobile-nav-toggle d-lg-none"></i>
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex flex-column justify-content-center">
-
+ 
     <nav id="navbar" class="navbar nav-menu">
       <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Acerca de Mí</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Currículum</span></a></li>
-        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Servicios</span></a></li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contacto</span></a></li>
+        <li><a href="#hero" id="nav-home" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Inicio</span></a></li>
+        <li><a href="#about" id="nav-about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Acerca de Mí</span></a></li>
+        <li><a href="#resume" id="nav-resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Currículum</span></a></li>
+        <li><a href="#services" id="nav-services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Servicios</span></a></li>
+        <li><a href="#contact" id="nav-contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contacto</span></a></li>
+        
+        <!-- <li class="language-selector">
+          <select id="languageSelector" onchange="changeLanguage(this)">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+          </select>
+        </li> -->
       </ul>
     </nav><!-- .nav-menu -->
 
@@ -52,8 +59,8 @@
 <!-- ======= Sección del Héroe ======= -->
 <section id="hero" class="d-flex flex-column justify-content-center">
   <div class="container" data-aos="zoom-in" data-aos-delay="100">
-    <h1>Giovanni Molina</h1>
-    <p>Soy <span class="typed" data-typed-items="Desarrollador Full Stack, Docente de TI, Diseñador de Software, Apasionado por la Tecnología"></span></p>
+    <h1 id="hero-name">Giovanni Molina</h1>
+    <p>Soy <span class="typed" data-typed-items="Desarrollador Full Stack, Docente de TI, Diseñador de Software, Apasionado por la Tecnología" id="hero-description"></span></p>
     <div class="social-links">
       <a href="https://www.linkedin.com/in/giovannimg/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       <a href="https://github.com/Giovasdf" class="github"><i class="bx bxl-github"></i></a>
@@ -61,240 +68,208 @@
   </div>
 </section><!-- Fin del Héroe -->
 
-  <main id="main">
+<main id="main">
 
     <!-- ======= Sección Acerca de Mí ======= -->
 <!-- ======= Sección Acerca de Mí ======= -->
 <section id="about" class="about">
   <div class="container" data-aos="fade-up">
-
     <div class="section-title">
-      <h2>Acerca de Mí</h2>
-      <p>Desarrollador Full Stack apasionado con experiencia en Angular, .NET Core y bases de datos como PostgreSQL y SQL Server. También soy docente de Tecnologías de la Información, con un historial probado de comunicación efectiva y enseñanza de conceptos técnicos. Me considero un diseñador de software comprometido y apasionado por la tecnología.</p>
+      <h2 id="about-title">Acerca de Mí</h2>
+      <p id="about-description">Desarrollador Full Stack apasionado con experiencia en Angular, .NET Core y bases de datos como PostgreSQL y SQL Server. También soy docente de Tecnologías de la Información, con un historial probado de comunicación efectiva y enseñanza de conceptos técnicos. Me considero un diseñador de software comprometido y apasionado por la tecnología.</p>
     </div>
-
     <div class="row">
       <div class="col-lg-4">
         <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
       </div>
       <div class="col-lg-8 pt-4 pt-lg-0 content">
-        <h3>Desarrollador Full Stack &amp; Docente de TI.</h3>
-        <p class="fst-italic">
+        <h3 id="about-role">Desarrollador Full Stack &amp; Docente de TI.</h3>
+        <p class="fst-italic" id="about-role-description">
           Soy un apasionado desarrollador Full Stack con una sólida formación en programación. Mi experiencia en el desarrollo de aplicaciones web y software me ha llevado a trabajar con tecnologías como Angular, .NET Core y bases de datos como PostgreSQL y SQL Server. Además, tengo un compromiso firme con la enseñanza de Tecnologías de la Información, ayudando a mis estudiantes a adquirir habilidades esenciales en este campo en constante evolución.
         </p>
-        
         <div class="row">
           <div class="col-lg-6">
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <strong>Fecha de Nacimiento:</strong> <span>05/11/1993</span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Sitio Web:</strong> <a href="https://giovasdf.github.io/" target="_blank"><span>giovasdf.github.io</span></a></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Teléfono:</strong> <span>+56927216726</span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Ciudad:</strong> <span>Santiago, Chile</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Fecha de Nacimiento:</strong> <span id="about-birthdate">05/11/1993</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Sitio Web:</strong> <a href="https://giovasdf.github.io/" target="_blank"><span id="about-website">giovasdf.github.io</span></a></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Teléfono:</strong> <span id="about-phone">+56927216726</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Ciudad:</strong> <span id="about-city">Santiago, Chile</span></li>
             </ul>
           </div>
           <div class="col-lg-6">
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <strong>Edad:</strong> <span>30</span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Título:</strong> <span>Analista Programador Computacional</span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Correo Electrónico:</strong> <span>gmolina.dev@gmail.com</span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Disponibilidad:</strong> <span>Inmediata</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Edad:</strong> <span id="about-age">30</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Título:</strong> <span id="about-degree">Analista Programador Computacional</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Correo Electrónico:</strong> <span id="about-email">gmolina.dev@gmail.com</span></li>
+              <li><i class="bi bi-chevron-right"></i> <strong>Disponibilidad:</strong> <span id="about-availability">Inmediata</span></li>
             </ul>
           </div>
         </div>
-        <p>
+        <p id="about-experience">
           Con experiencia en el desarrollo de software y la enseñanza de tecnología de la información, disfruto creando soluciones precisas y efectivas, así como fomentando un entorno de aprendizaje sólido para mis estudiantes. Estoy comprometido con el éxito en la industria tecnológica en constante evolución.
         </p>
       </div>
     </div>
-
   </div>
 </section><!-- Fin de la Sección Acerca de Mí -->
 
-    <!-- ======= Facts Section ======= -->
-    <section id="facts" class="facts">
-      <div class="container" data-aos="fade-up">
-    
-        <div class="section-title">
-          <h2>Datos de Interés</h2>
-          <p>Algunos datos relevantes sobre mi experiencia y logros profesionales.</p>
+<section id="facts" class="facts">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2 id="facts-title">Datos de Interés</h2>
+      <p id="facts-description">Algunos datos relevantes sobre mi experiencia y logros profesionales.</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-6">
+        <div class="count-box">
+          <i class="bi bi-emoji-smile"></i>
+          <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="1" class="purecounter" id="experience-count"></span>
+          <p id="experience-description">Experiencia en Años</p>
         </div>
-    
-        <div class="row">
-    
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Experiencia en Años</p>
-            </div>
-          </div>
-    
-          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Proyectos Completados</p>
-            </div>
-          </div>
-    
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="8000" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Horas de Desarrollo</p>
-            </div>
-          </div>
-    
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-award"></i>
-              <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Certificaciones Obtenidas</p>
-            </div>
-          </div>
-    
-        </div>
-    
       </div>
-    </section><!-- Fin de la Sección Datos de Interés -->
-    
+      <div class="col-lg-3 col-md-6">
+        <div class="count-box">
+          <i class="bi bi-journal-richtext"></i>
+          <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="1" class="purecounter" id="projects-count"></span>
+          <p id="projects-description">Proyectos Completados</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="count-box">
+          <i class="bi bi-headset"></i>
+          <span data-purecounter-start="0" data-purecounter-end="8000" data-purecounter-duration="1" class="purecounter" id="development-hours-count"></span>
+          <p id="hours-description">Horas de Desarrollo</p>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6">
+        <div class="count-box">
+          <i class="bi bi-award"></i>
+          <span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter" id="certifications-count"></span>
+          <p id="certifications-description">Certificaciones Obtenidas</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
     <!-- ======= Skills Section ======= -->
     <section id="skills" class="skills section-bg">
       <div class="container" data-aos="fade-up">
-    
         <div class="section-title">
-          <h2>Habilidades</h2>
-          <p>Un vistazo a mis habilidades técnicas.</p>
+          <h2 id="skills-title">Habilidades</h2>
+          <p id="skills-description">Un vistazo a mis habilidades técnicas.</p>
         </div>
-    
         <div class="row skills-content">
-    
           <div class="col-lg-6">
-    
             <div class="progress">
-              <span class="skill">Front End Development <i class="val">100%</i></span>
+              <span class="skill" id="front-end-skill">Front End Development <i class="val">100%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-    
             <div class="progress">
-              <span class="skill">Back End Development <i class="val">80%</i></span>
+              <span class="skill" id="back-end-skill">Back End Development <i class="val">80%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-    
             <div class="progress">
-              <span class="skill">Docencia <i class="val">90%</i></span>
+              <span class="skill" id="teaching-skill">Docencia <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-    
           </div>
-    
           <div class="col-lg-6">
-    
             <div class="progress">
-              <span class="skill">Angular <i class="val">85%</i></span>
+              <span class="skill" id="angular-skill">Angular <i class="val">85%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-    
             <div class="progress">
-              <span class="skill">C# <i class="val">75%</i></span>
+              <span class="skill" id="c-sharp-skill">C# <i class="val">75%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-    
             <div class="progress">
-              <span class="skill">Python <i class="val">70%</i></span>
+              <span class="skill" id="python-skill">Python <i class="val">70%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
-    
           </div>
-    
         </div>
-    
       </div>
     </section><!-- Fin de la Sección Habilidades -->
     
-    <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
       <div class="container" data-aos="fade-up">
-    
         <div class="section-title">
-          <h2>Resumen</h2>
-          <p>Una visión general de mi educación y experiencia profesional.</p>
+          <h2 id="resume-title">Resumen</h2>
+          <p id="description">Una visión general de mi educación y experiencia profesional.</p>
         </div>
-    
         <div class="row">
           <div class="col-lg-6">
-            <h3 class="resume-title">Resumen</h3>
-            <div class="resume-item pb-0">
-              <h4>Giovanni Molina</h4>
-              <p><em>Desarrollador Full Stack apasionado con 3+ años de experiencia en el diseño y desarrollo de aplicaciones web y software. Comprometido con la enseñanza de Tecnologías de la Información para ayudar a otros a adquirir habilidades esenciales en el campo de la tecnología.</em></p>
+            <h3 class="title" id="summary-title">Resumen</h3>
+            <div class="item pb-0">
+              <h4 id="name">Giovanni Molina</h4>
+              <p><em id="resume-summary">Desarrollador Full Stack apasionado con 3+ años de experiencia en el diseño y desarrollo de aplicaciones web y software. Comprometido con la enseñanza de Tecnologías de la Información para ayudar a otros a adquirir habilidades esenciales en el campo de la tecnología.</em></p>
               <ul>
-                <li>Santiago, Chile</li>
-                <li>+56927216726</li>
-                <li>gmolina.dev@gmail.com</li>
+                <li id="city">Santiago, Chile</li>
+                <li id="phone">+56927216726</li>
+                <li id="email">gmolina.dev@gmail.com</li>
               </ul>
             </div>
-    
-            <h3 class="resume-title">Educación</h3>
-            <div class="resume-item">
-              <h4>Ingeniería en Informática</h4>
-              <h5>2022 - 2024</h5>
-              <p><em>IPLACEX, Santiago, Chile</em></p>
-              <p>Estudiante de Ingeniería en Informática con énfasis en desarrollo de software y tecnologías de vanguardia.</p>
+        
+            <h3 class="title" id="education-title">Educación</h3>
+            <div class="item">
+              <h4 id="engineering">Ingeniería en Informática</h4>
+              <h5 id="engineering-date">2022 - 2024</h5>
+              <p><em id="engineering-location">IPLACEX, Santiago, Chile</em></p>
+              <p id="engineering-description">Estudiante de Ingeniería en Informática con énfasis en desarrollo de software y tecnologías de vanguardia.</p>
             </div>
-            <div class="resume-item">
-              <h4>Analista Programador Computacional</h4>
-              <h5>2013 - 2018</h5>
-              <p><em>DuocUC, Chile</em></p>
-              <p>Graduado como Analista Programador Computacional con amplios conocimientos en desarrollo de software.</p>
+            <div class="item">
+              <h4 id="analyst-programmer">Analista Programador Computacional</h4>
+              <h5 id="analyst-programmer-date">2013 - 2018</h5>
+              <p><em id="analyst-programmer-location">DuocUC, Chile</em></p>
+              <p id="analyst-programmer-description">Graduado como Analista Programador Computacional con amplios conocimientos en desarrollo de software.</p>
             </div>
           </div>
           <div class="col-lg-6">
-            <h3 class="resume-title">Experiencia Profesional</h3>
-            <div class="resume-item">
-              <h4>Desarrollador Full Stack</h4>
-              <h5>Junio 2019 - Marzo 2023</h5>
-              <p><em>OpenDev, Santiago, Chile</em></p>
+            <h3 class="title" id="professional-experience-title">Experiencia Profesional</h3>
+            <div class="item">
+              <h4 id="full-stack-developer-title">Desarrollador Full Stack</h4>
+              <h5 id="full-stack-developer-date">Junio 2019 - Marzo 2023</h5>
+              <p><em id="full-stack-developer-location">OpenDev, Santiago, Chile</em></p>
               <ul>
-                <li>Desarrollo de aplicaciones web y software utilizando tecnologías como Angular, .NET Core y bases de datos SQL.</li>
-                <li>Integración de aplicaciones con API externas y contribución al éxito del equipo OpenDev CL.</li>
-                <li>Enseñanza de Arquitectura de Software y Desarrollo Web a estudiantes.</li>
+                <li id="full-stack-developer-description-1">Desarrollo de aplicaciones web y software utilizando tecnologías como Angular, .NET Core y bases de datos SQL.</li>
+                <li id="full-stack-developer-description-2">Integración de aplicaciones con API externas y contribución al éxito del equipo OpenDev CL.</li>
+                <li id="full-stack-developer-description-3">Enseñanza de Arquitectura de Software y Desarrollo Web a estudiantes.</li>
               </ul>
             </div>
-            <div class="resume-item">
-              <h4>Docente TI</h4>
-              <h5>Junio 2019 - Junio 2022</h5>
-              <p><em>DuocUC, Santiago, Chile</em></p>
+            <div class="item">
+              <h4 id="it-teacher-title">Docente TI</h4>
+              <h5 id="it-teacher-date">Junio 2019 - Junio 2022</h5>
+              <p><em id="it-teacher-location">DuocUC, Santiago, Chile</em></p>
               <ul>
-                <li>Amplia experiencia en la enseñanza de Tecnologías de la Información a estudiantes.</li>
-                <li>Comunicación efectiva de conceptos complejos y desarrollo de habilidades en estudiantes.</li>
-                <li>Compromiso con el éxito de los estudiantes y creación de un entorno de aprendizaje sólido.</li>
+                <li id="it-teacher-description-1">Amplia experiencia en la enseñanza de Tecnologías de la Información a estudiantes.</li>
+                <li id="it-teacher-description-2">Comunicación efectiva de conceptos complejos y desarrollo de habilidades en estudiantes.</li>
+                <li id="it-teacher-description-3">Compromiso con el éxito de los estudiantes y creación de un entorno de aprendizaje sólido.</li>
               </ul>
             </div>
           </div>
         </div>
-    
       </div>
     </section><!-- Fin de la Sección Resumen -->
     
-   
     <section id="services" class="services">
       <div class="container" data-aos="fade-up">
     
         <div class="section-title">
-          <h2>Servicios</h2>
-          <p>Descubre los servicios que ofrezco para ayudarte en tu viaje tecnológico.</p>
+          <h2 id="services-title">Servicios</h2>
+          <p id="services-description">Descubre los servicios que ofrezco para ayudarte en tu viaje tecnológico.</p>
         </div>
     
         <div class="row">
@@ -304,8 +279,8 @@
               <div class="icon">
                 <i class="bx bxl-dribbble"></i>
               </div>
-              <h4><a href="#">Desarrollo Web</a></h4>
-              <p>Desarrollo sitios web a medida para tu negocio o proyecto, con diseño y funcionalidad excepcionales.</p>
+              <h4 id="web-development-title"><a href="#">Desarrollo Web</a></h4>
+              <p id="web-development-description">Desarrollo sitios web a medida para tu negocio o proyecto, con diseño y funcionalidad excepcionales.</p>
             </div>
           </div>
     
@@ -314,8 +289,8 @@
               <div class="icon">
                 <i class="bx bx-slideshow"></i>
               </div>
-              <h4><a href="#">Diseño UI/UX</a></h4>
-              <p>Creo diseños impactantes y materiales de marketing de alta calidad para tu negocio.</p>
+              <h4 id="ui-ux-design-title"><a href="#">Diseño UI/UX</a></h4>
+              <p id="ui-ux-design-description">Creo diseños impactantes y materiales de marketing de alta calidad para tu negocio.</p>
             </div>
           </div>
     
@@ -324,8 +299,8 @@
               <div class="icon">
                 <i class="bx bx-tachometer"></i>
               </div>
-              <h4><a href="#">Optimización de Rendimiento</a></h4>
-              <p>Optimizo el rendimiento de tu sitio web o aplicación para una experiencia más rápida y eficiente.</p>
+              <h4 id="performance-optimization-title"><a href="#">Optimización de Rendimiento</a></h4>
+              <p id="performance-optimization-description">Optimizo el rendimiento de tu sitio web o aplicación para una experiencia más rápida y eficiente.</p>
             </div>
           </div>
     
@@ -334,8 +309,8 @@
               <div class="icon">
                 <i class="bx bx-layer"></i>
               </div>
-              <h4><a href="#">Desarrollo de Aplicaciones</a></h4>
-              <p>Desarrollo aplicaciones móviles y de escritorio personalizadas para satisfacer tus necesidades.</p>
+              <h4 id="app-development-title"><a href="#">Desarrollo de Aplicaciones</a></h4>
+              <p id="app-development-description">Desarrollo aplicaciones móviles y de escritorio personalizadas para satisfacer tus necesidades.</p>
             </div>
           </div>
     
@@ -344,8 +319,8 @@
               <div class="icon">
                 <i class="bx bx-slideshow"></i>
               </div>
-              <h4><a href="#">Diseño UI/UX</a></h4>
-              <p>Diseño interfaces de usuario atractivas y experiencias de usuario intuitivas para tus productos digitales.</p>
+              <h4 id="ui-ux-design-2-title"><a href="#">Diseño UI/UX</a></h4>
+              <p id="ui-ux-design-2-description">Diseño interfaces de usuario atractivas y experiencias de usuario intuitivas para tus productos digitales.</p>
             </div>
           </div>
     
@@ -354,39 +329,40 @@
               <div class="icon">
                 <i class="bx bx-arch"></i>
               </div>
-              <h4><a href="#">Consultoría Tecnológica</a></h4>
-              <p>Brindo asesoramiento experto en tecnología para ayudarte a tomar decisiones informadas y estratégicas.</p>
+              <h4 id="tech-consulting-title"><a href="#">Consultoría Tecnológica</a></h4>
+              <p id="tech-consulting-description">Brindo asesoramiento experto en tecnología para ayudarte a tomar decisiones informadas y estratégicas.</p>
             </div>
           </div>
     
         </div>
     
       </div>
-    </section><!-- Fin de la Sección Servicios -->
+    </section>
+    
     
 <!-- ======= Sección de Contacto ======= -->
 <section id="contact" class="contacto">
   <div class="container" data-aos="fade-up">
     <div class="section-title">
-      <h2>Contacto</h2>
+      <h2 id="contact-title">Contacto</h2>
     </div>
     <div class="row mt-1">
       <div class="col-lg-4">
         <div class="info">
           <div class="address">
             <i class="bi bi-geo-alt"></i>
-            <h4>Dirección:</h4>
-            <p>José Abelardo Nuñez #535, Estación Central, Santiago, Chile</p>
+            <h4 id="contact-address-title">Dirección:</h4>
+            <p id="contact-address">José Abelardo Nuñez #535, Estación Central, Santiago, Chile</p>
           </div>
           <div class="email">
             <i class="bi bi-envelope"></i>
-            <h4>Correo Electrónico:</h4>
-            <p>gmolina.dev@gmail.com</p>
+            <h4 id="contact-email-title">Correo Electrónico:</h4>
+            <p id="contact-email">gmolina.dev@gmail.com</p>
           </div>
           <div class="phone">
             <i class="bi bi-phone"></i>
-            <h4>Teléfono:</h4>
-            <p>+56927216726</p>
+            <h4 id="contact-phone-title">Teléfono:</h4>
+            <p id="contact-phone">+56927216726</p>
           </div>
         </div>
       </div>
@@ -398,19 +374,19 @@
         >
           <div class="row">
             <div class="col-md-6 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Tu Nombre" required>
+              <input type="text" name="name" class="form-control" id="contact-name" placeholder="Tu Nombre" required>
             </div>
             <div class="col-md-6 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="_replyto" id="email" placeholder="Tu Correo Electrónico" required>
+              <input type="email" class="form-control" name="_replyto" id="contact-email-input" placeholder="Tu Correo Electrónico" required>
             </div>
           </div>
         
           <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
+            <textarea class="form-control" name="message" rows="5" id="contact-message" placeholder="Mensaje" required></textarea>
           </div>
           </div>
           <!-- Cambiamos el botón para enviar el formulario -->
-          <div class="text-center"><button type="submit" class=" btn btn-primary">Enviar Mensaje</button></div>
+          <div class="text-center"><button type="submit" class="btn btn-primary" id="contact-send-button">Enviar Mensaje</button></div>
         </form>
       </div>
     </div>
@@ -422,15 +398,14 @@
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container">
-      <h3>Giovanni Molina</h3>
-      <p>Dirección: José Abelardo Nuñez #535 Est.Central, Santiago, Chile</p>
-      <p>Email: gmolina.dev@gmail.com</p>
-      <p>Teléfono: +56927216726</p>
+      <h3 id="footer-name">Giovanni Molina</h3>
+      <p id="footer-address">Dirección: José Abelardo Nuñez #535 Est.Central, Santiago, Chile</p>
+      <p id="footer-email">Email: gmolina.dev@gmail.com</p>
+      <p id="footer-phone">Teléfono: +56927216726</p>
       <div class="social-links">
         <a href="https://github.com/Giovasdf" class="github"><i class="bx bxl-github"></i></a>
         <a href="https://www.linkedin.com/in/giovannimg/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
-      
     </div>
   </footer><!-- End Footer -->
   
@@ -449,6 +424,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/language.js"></script>
 
 </body>
 

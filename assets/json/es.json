@@ -1,0 +1,96 @@
+{
+  "hero": {
+    "name": "Giovanni Molina",
+    "description": "Soy un <span class=\"typed\" data-typed-items=\"Desarrollador Full Stack, Profesor de IT, Diseñador de Software, Entusiasta de la Tecnología\"></span>",
+    "linkedin": "https://www.linkedin.com/in/giovannimg/",
+    "github": "https://github.com/Giovasdf"
+  },
+  "about": {
+    "title": "Acerca de Mí",
+    "description": "Apasionado Desarrollador Full Stack con experiencia en Angular, .NET Core y bases de datos como PostgreSQL y SQL Server. También soy profesor de IT con un historial comprobado de comunicación efectiva y enseñanza de conceptos técnicos. Me considero un dedicado diseñador de software y entusiasta de la tecnología.",
+    "birthdate": "Fecha de Nacimiento",
+    "website": "Sitio Web",
+    "phone": "Teléfono",
+    "city": "Ciudad",
+    "age": "Edad",
+    "degree": "Título",
+    "email": "Correo Electrónico",
+    "availability": "Disponibilidad",
+    "experience": "Con experiencia en desarrollo de software y enseñanza de IT, disfruto creando soluciones precisas y efectivas, así como fomentando un sólido ambiente de aprendizaje para mis estudiantes. Estoy comprometido con el éxito en la industria tecnológica en constante evolución."
+  },
+  "facts": {
+    "title": "Datos de Interés",
+    "experience": "Años de Experiencia",
+    "projects": "Proyectos Completados",
+    "development_hours": "Horas de Desarrollo",
+    "certifications": "Certificaciones Obtenidas"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "front_end": "Desarrollo Front End",
+    "back_end": "Desarrollo Back End",
+    "teaching": "Enseñanza",
+    "angular": "Angular",
+    "c_sharp": "C#",
+    "python": "Python"
+  },
+  "resume": {
+    "resume-title":"Currículum",
+    "title": "Currículum",
+    "description": "Una visión general de mi educación y experiencia profesional.",
+    "summary": "Resumen",
+    "name": "Giovanni Molina",
+    "city":"Santiago",
+    "phone":"+56927216726",
+    "email":"gmolina.dev@gmail.com",
+    "summary_description": "Apasionado Desarrollador Full Stack con más de 3 años de experiencia en diseño y desarrollo de aplicaciones web y software. Comprometido con la enseñanza de IT para ayudar a otros a adquirir habilidades esenciales en el campo de la tecnología.",
+    "education": "Educación",
+    "engineering": "Ingeniería en Informática",
+    "engineering_date": "2022 - 2024",
+    "engineering-location":"IPLACEX, Santiago, Chile",
+    "engineering_description": "Estudiante de Ingeniería en Informática con enfoque en desarrollo de software y tecnologías de vanguardia.",
+    "analyst_programmer": "Analista Programador Computacional",
+    "analyst_programmer_date": "2013 - 2018",
+    "analyst_programmer_description": "Graduado como Programador Analista con amplios conocimientos en desarrollo de software.",
+    "professional_experience": "Experiencia Profesional",
+    "full_stack_developer": "Desarrollador Full Stack",
+    "full_stack_developer_date": "Junio 2019 - Marzo 2023",
+    "full_stack_developer_description": "Desarrollo de aplicaciones web y de software utilizando tecnologías como Angular, .NET Core y bases de datos SQL. Integración de aplicaciones con APIs externas y contribución al éxito del equipo OpenDev CL. Enseñanza de Arquitectura de Software y Desarrollo Web a estudiantes.",
+    "it_teacher": "Profesor de IT",
+    "it_teacher_date": "Junio 2019 - Junio 2022",
+    "it_teacher_description": "Amplia experiencia en la enseñanza de Tecnología de la Información a estudiantes. Comunicación efectiva de conceptos complejos y desarrollo de habilidades de los estudiantes. Compromiso con el éxito de los estudiantes y la creación de un sólido ambiente de aprendizaje."
+  },
+  "services": {
+    "title": "Servicios",
+    "discover_services": "Descubre los servicios que ofrezco para ayudarte en tu viaje tecnológico.",
+    "web_development": "Desarrollo Web",
+    "web_development_description": "Desarrollo personalizado de sitios web para tu negocio o proyecto con diseño y funcionalidad excepcionales.",
+    "ui_ux_design": "Diseño UI/UX",
+    "ui_ux_design_description": "Creación de diseños impactantes y materiales de marketing de alta calidad para tu negocio.",
+    "performance_optimization": "Optimización de Rendimiento",
+    "performance_optimization_description": "Optimización del rendimiento de tu sitio web o aplicación para una experiencia más rápida y eficiente.",
+    "application_development": "Desarrollo de Aplicaciones",
+    "application_development_description": "Desarrollo de aplicaciones móviles y de escritorio personalizadas para satisfacer tus necesidades.",
+    "technology_consulting": "Consultoría Tecnológica",
+    "technology_consulting_description": "Ofrecer asesoramiento experto en tecnología para ayudarte a tomar decisiones informadas y estratégicas."
+  },
+  "contact": {
+    "title": "Contacto",
+    "address_title": "Dirección",
+    "address": "José Abelardo Nuñez #535, Estación Central, Santiago, Chile",
+    "email_title": "Correo Electrónico",
+    "email": "gmolina.dev@gmail.com",
+    "phone_title": "Teléfono",
+    "phone": "+56927216726",
+    "name_placeholder": "Tu Nombre",
+    "email_placeholder": "Tu Correo Electrónico",
+    "message_placeholder": "Mensaje",
+    "send_button_text": "Enviar Mensaje"
+  },
+  "footer": {
+    "name": "Nombre del Pie de Página",
+    "address": "Dirección: José Abelardo Nuñez #535 Est.Central, Santiago, Chile",
+    "email": "Correo Electrónico: gmolina.dev@gmail.com",
+    "phone": "Teléfono: +56927216726"
+  }
+}
