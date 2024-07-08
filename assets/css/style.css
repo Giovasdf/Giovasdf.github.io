@@ -10,7 +10,7 @@ body {
     font-family: "Big Shoulders Stencil Text", sans-serif; /* Especifica Big Shoulders Stencil Text para h1 */
     font-weight: 700;
     font-style: bold;
-    font-size: 22vw;
+    font-size: 18vw;
     background-image: url('../img/bg.png');
     background-size: cover;
     background-position: center; /* Centra la imagen inicialmente */
@@ -19,6 +19,9 @@ body {
     color: transparent; /* Hace el texto transparente */
     -webkit-text-fill-color: transparent;
     position: relative; /* Necesario para aplicar parallax */
+}
+i{
+    transform: rotate(90deg);
 }
 
 
